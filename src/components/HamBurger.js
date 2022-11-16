@@ -16,12 +16,12 @@ const HamBurger = ({ setIsModalOpen, setNavButton }) => {
                   </Link>
                 </li>
                 <li>
-                  <Link onClick={() => setNavButton(false)} to="/">
+                  <Link onClick={() => setNavButton(false)} to="/place-to-stay">
                     Place to stay
                   </Link>
                 </li>
                 <li>
-                  <Link to="/nfts">NFTs</Link>
+                  <Link to="/">NFTs</Link>
                 </li>
                 <li>
                   <Link onClick={() => setNavButton(false)} to="/">
@@ -55,7 +55,7 @@ const BuggerOuterContainer = styled.div`
   left: 0;
   z-index: 999;
   background: rgba(64, 64, 64, 0.3);
-  position: fixed;
+  
   overflow: hidden;
 `;
 
