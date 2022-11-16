@@ -3,6 +3,7 @@ import Footer from "../../components/Footer";
 import Header from "../../components/Header";
 import PlaceList from "./components/PlaceList/PlaceList";
 import PlaceNav from "./components/PlaceNav/PlaceNav";
+import PlaceData from "./components/PlaceData/PlaceData";
 
 
 
@@ -13,6 +14,7 @@ const Place = () => {
       < Header />
       < PlaceNav />
       < PlaceList />
+      <PlaceData />
       < Footer />
       
     </Fragment>
