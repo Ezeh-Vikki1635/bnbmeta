@@ -55,7 +55,7 @@ const BuggerOuterContainer = styled.div`
   left: 0;
   z-index: 999;
   background: rgba(64, 64, 64, 0.3);
-  
+  position: fixed;
   overflow: hidden;
 `;
 
