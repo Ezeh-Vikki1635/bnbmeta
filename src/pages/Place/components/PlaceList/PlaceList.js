@@ -5,13 +5,13 @@ import Rating from "../../../../components/Rating";
 import { data } from "./PlaceData";
 
 const PlaceList = () => {
-  const placeData = data.map((nfts, index) => {
-    return <Rating key={index} placeData={nfts} />;
+  const nftData = data.map((nft, index) => {
+    return <Rating key={index} nftData={nft} />;
   });
 
   return (
     <PlaceContainer>
-      <BoxContainer>{placeData}</BoxContainer>
+      <BoxContainer>{nftData}</BoxContainer>
     </PlaceContainer>
   );
 };
