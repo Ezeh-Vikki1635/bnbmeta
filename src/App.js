@@ -17,7 +17,7 @@ function App() {
           <Router>
             <Routes>
               <Route index element={<Home />} />
-              <Route path="/Place-to-stay" element={< Place />} />
+              <Route path="/place-to-stay" element={< Place />} />
             </Routes>
           </Router>
         </MainContainer>
