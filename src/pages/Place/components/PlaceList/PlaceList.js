@@ -5,8 +5,8 @@ import Rating from "../../../../components/Rating";
 import { data } from "./PlaceData";
 
 const PlaceList = () => {
-  const placeData = data.map((place, index) => {
-    return <Rating key={index} placeData={place} />;
+  const placeData = data.map((nfts, index) => {
+    return <Rating key={index} placeData={nfts} />;
   });
 
   return (
